@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas do Sistema Solar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #001f3f;
+            color: white;
+        }
+
+        .card {
+            background-color: #012a4a;
+        } 
+    </style>
+</head>
+
+<body>
+    <!-- Carousel -->
+    <div id="carouselPlanetas" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselPlanetas" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselPlanetas" data-slide-to="1"></li>
+            <li data-target="#carouselPlanetas" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/terra.jpg" class="d-block w-100" alt="Terra">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/jupiter.jpg" class="d-block w-100" alt="Júpiter">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/saturno.jpg" class="d-block w-100" alt="Saturno">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselPlanetas" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselPlanetas" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Grid de Cards -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card Mercúrio -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/mercurio.jpg" class="card-img-top" alt="Mercúrio">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercúrio</h5>
+                        <p class="card-text">Mercúrio é o planeta mais próximo do Sol.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Vênus -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/venus.jpg" class="card-img-top" alt="Vênus">
+                    <div class="card-body">
+                        <h5 class="card-title">Vênus</h5>
+                        <p class="card-text">Vênus é o segundo planeta a partir do Sol.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Terra -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/terra.jpg" class="card-img-top" alt="Terra">
+                    <div class="card-body">
+                        <h5 class="card-title">Terra</h5>
+                        <p class="card-text">Terra é o terceiro planeta do sistema solar.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Marte -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/marte.jpg" class="card-img-top" alt="Marte">
+                    <div class="card-body">
+                        <h5 class="card-title">Marte</h5>
+                        <p class="card-text">Marte é o quarto planeta a partir do Sol e é conhecido como o planeta
+                            vermelho.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Júpiter -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/jupiter.jpg" class="card-img-top" alt="Júpiter">
+                    <div class="card-body">
+                        <h5 class="card-title">Júpiter</h5>
+                        <p class="card-text">Júpiter é o maior planeta do sistema solar.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Saturno -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/saturno.jpg" class="card-img-top" alt="Saturno">
+                    <div class="card-body">
+                        <h5 class="card-title">Saturno</h5>
+                        <p class="card-text">Saturno é famoso por seus anéis impressionantes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Urano -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/urano.jpg" class="card-img-top" alt="Urano">
+                    <div class="card-body">
+                        <h5 class="card-title">Urano</h5>
+                        <p class="card-text">Urano é conhecido por seu eixo de rotação único.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Netuno -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imagens/netuno.jpg" class="card-img-top" alt="Netuno">
+                    <div class="card-body">
+                        <h5 class="card-title">Netuno</h5>
+                        <p class="card-text">Netuno é o planeta mais distante do Sol no sistema solar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts do Bootstrap e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
